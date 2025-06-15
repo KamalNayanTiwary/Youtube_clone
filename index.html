@@ -99,7 +99,7 @@
     <main class="main-layout">
       <div class="screen-overlay"></div>
 
-      <!-- Sidebar -->
+            <!-- Sidebar -->
       <aside class="sidebar">
         <div class="nav-section nav-left">
           <button class="nav-button menu-button">
@@ -113,115 +113,139 @@
 
         <div class="links-container">
           <div class="link-section">
-            <a href="https://www.youtube.com/" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=home')">
               <i class="uil uil-estate"></i> Home
             </a>
-            <a href="https://www.youtube.com/shorts" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/shorts" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=shorts')">
               <i class="uil uil-video"></i> Shorts
             </a>
-            <a href="https://www.youtube.com/feed/subscriptions" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/feed/subscriptions" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=subscriptions')">
               <i class="uil uil-tv-retro"></i> Subscriptions
             </a>
           </div>
+
           <div class="section-separator"></div>
 
           <div class="link-section">
             <h4 class="section-title">You</h4>
-            <a href="https://www.youtube.com/channel_switcher" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/channel_switcher" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=your+channel')">
               <i class="uil uil-user-square"></i> Your channel
             </a>
-            <a href="https://www.youtube.com/feed/history" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/feed/history" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=history')">
               <i class="uil uil-history"></i> History
             </a>
-            <a href="https://www.youtube.com/playlist?list=WL" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/playlist?list=WL" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=watch+later')">
               <i class="uil uil-clock"></i> Watch later
             </a>
           </div>
+
           <div class="section-separator"></div>
 
           <div class="link-section">
             <h4 class="section-title">Explore</h4>
-            <a href="https://www.youtube.com/feed/trending" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/feed/trending" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=trending')">
               <i class="uil uil-fire"></i> Trending
             </a>
-            <a href="https://www.youtube.com/music" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/music" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=music')">
               <i class="uil uil-music"></i> Music
             </a>
-            <a href="https://www.youtube.com/gaming" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/gaming" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=gaming')">
               <i class="uil uil-basketball"></i> Gaming
             </a>
-            <a href="https://www.youtube.com/sports" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/sports" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=sports')">
               <i class="uil uil-trophy"></i> Sports
             </a>
           </div>
+
           <div class="section-separator"></div>
 
           <div class="link-section">
             <h4 class="section-title">More from YouTube</h4>
-            <a href="https://www.youtube.com/premium" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/premium" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=youtube+premium')">
               <i class="uil uil-shield-plus"></i> YouTube Premium
             </a>
-            <a href="https://music.youtube.com/" class="link-item" target="_blank">
+            <a href="https://music.youtube.com/" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=youtube+music')">
               <i class="uil uil-headphones-alt"></i> YouTube Music
             </a>
-            <a href="https://www.youtube.com/kids" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/kids" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=youtube+kids')">
               <i class="uil uil-airplay"></i> YouTube Kids
             </a>
           </div>
+
           <div class="section-separator"></div>
 
           <div class="link-section">
-            <a href="https://www.youtube.com/account" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/account" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=settings')">
               <i class="uil uil-setting"></i> Settings
             </a>
-            <a href="https://www.youtube.com/reporthistory" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/reporthistory" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=report')">
               <i class="uil uil-file-medical-alt"></i> Report
             </a>
-            <a href="https://support.google.com/youtube/" class="link-item" target="_blank">
+            <a href="https://support.google.com/youtube/" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=help')">
               <i class="uil uil-question-circle"></i> Help
             </a>
-            <a href="https://www.youtube.com/feed/reporthistory" class="link-item" target="_blank">
+            <a href="https://www.youtube.com/feed/reporthistory" class="link-item"
+              onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=feedback')">
               <i class="uil uil-exclamation-triangle"></i> Feedback
             </a>
           </div>
         </div>
-
       </aside>
-
-      <div class="content-wrapper">
+      
+       <div class="content-wrapper">
         <!-- Category List -->
         <div class="category-list">
-          <a href="https://www.youtube.com/" target="_blank" class="category-button ">All</a>
-          <a href="https://www.youtube.com/results?search_query=website+development" target="_blank"
-            class="category-button">Website</a>
-          <a href="https://www.youtube.com/music" target="_blank" class="category-button">Music</a>
-          <a href="https://www.youtube.com/gaming" target="_blank" class="category-button">Gaming</a>
-          <a href="https://www.youtube.com/results?search_query=node.js" target="_blank"
-            class="category-button">Node.js</a>
-          <a href="https://www.youtube.com/results?search_query=javascript" target="_blank"
-            class="category-button">JavaScript</a>
-          <a href="https://www.youtube.com/results?search_query=react.js" target="_blank"
-            class="category-button">React.js</a>
-          <a href="https://www.youtube.com/results?search_query=typescript" target="_blank"
-            class="category-button">TypeScript</a>
-          <a href="https://www.youtube.com/results?search_query=coding+tutorials" target="_blank"
-            class="category-button">Coding</a>
-          <a href="https://www.youtube.com/results?search_query=next.js" target="_blank"
-            class="category-button">Next.js</a>
-          <a href="https://www.youtube.com/results?search_query=data+analysis" target="_blank"
-            class="category-button">Data analysis</a>
-          <a href="https://www.youtube.com/results?search_query=web+design" target="_blank" class="category-button">Web
-            design</a>
-          <a href="https://www.youtube.com/results?search_query=html" target="_blank" class="category-button">HTML</a>
-          <a href="https://www.youtube.com/results?search_query=tailwind+css" target="_blank"
-            class="category-button">Tailwind</a>
-          <a href="https://www.youtube.com/results?search_query=css" target="_blank" class="category-button">CSS</a>
-          <a href="https://www.youtube.com/results?search_query=express.js" target="_blank"
-            class="category-button">Express.js</a>
+          <a href="https://www.youtube.com/" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=')">All</a>
+          <a href="https://www.youtube.com/results?search_query=website+development" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=website+development')">Website</a>
+          <a href="https://www.youtube.com/music" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=music')">Music</a>
+          <a href="https://www.youtube.com/gaming" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=gaming')">Gaming</a>
+          <a href="https://www.youtube.com/results?search_query=node.js" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=node.js')">Node.js</a>
+          <a href="https://www.youtube.com/results?search_query=javascript" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=javascript')">JavaScript</a>
+          <a href="https://www.youtube.com/results?search_query=react.js" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=react.js')">React.js</a>
+          <a href="https://www.youtube.com/results?search_query=typescript" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=typescript')">TypeScript</a>
+          <a href="https://www.youtube.com/results?search_query=coding+tutorials" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=coding+tutorials')">Coding</a>
+          <a href="https://www.youtube.com/results?search_query=next.js" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=next.js')">Next.js</a>
+          <a href="https://www.youtube.com/results?search_query=data+analysis" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=data+analysis')">Data analysis</a>
+          <a href="https://www.youtube.com/results?search_query=web+design" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=web+design')">Web design</a>
+          <a href="https://www.youtube.com/results?search_query=html" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=html')">HTML</a>
+          <a href="https://www.youtube.com/results?search_query=tailwind+css" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=tailwind+css')">Tailwind</a>
+          <a href="https://www.youtube.com/results?search_query=css" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=css')">CSS</a>
+          <a href="https://www.youtube.com/results?search_query=express.js" class="category-button"
+            onclick="loadVideo('https://www.youtube.com/embed?listType=search&list=express.js')">Express.js</a>
         </div>
 
-
-        <!-- Video List -->
+          <!-- Video List -->
         <div class="video-list">
           <a href="https://www.youtube.com/watch?v=OORUHkgg4IM" class="video-card">
             <div class="thumbnail-container">
